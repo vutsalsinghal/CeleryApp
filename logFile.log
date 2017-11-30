@@ -1,0 +1,4 @@
+[INFO] 2017-11-19 22:39:51,137 [views.py 25]] Sent request to create 20 users!
+[INFO] 2017-11-19 22:40:56,184 [File: views.py Line no: 25] Sent request to create 22 users!
+[INFO] 2017-11-19 22:42:24,839 [File: views.py FuncName: form_valid Line no: 25] Sent request to create 33 users!
+[INFO] 2017-11-19 22:46:50,324 [FileName: views.py FuncName: form_valid() LineNo: 26] Sent request to create 50 users!
