@@ -1,4 +1,4 @@
-# PasteBin
+# CeleryApp
 
 ## Overview
 This is an app for testing Celery with logging facility.
