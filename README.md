@@ -20,3 +20,9 @@ python manage.py runserver
 ```
 
 That's it! Now browse to http://localhost:8000 in any browser.
+
+Also don't forget to enable RabbitMQ server and run Celery worker in a new terminal:
+
+```
+celery -A mysite worker -l info
+```
