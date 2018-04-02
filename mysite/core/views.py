@@ -25,5 +25,5 @@ class GenerateRandomUserView(FormView):
 		
 		logger.info('Sent request to create %d users!' %(total))
 		
-		messages.success(self.request, 'We are generating your random users! Wait a moment and refresh this page.')
+		messages.success(self.request, 'We are generating %s random users! Wait a moment and refresh this page.'%(total))
 		return redirect('users_list')
